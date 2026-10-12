@@ -1,0 +1,9 @@
+flask
+flask-cors
+replicate
+python-dotenv
+werkzeug
+gunicorn
+supabase
+imageio-ffmpeg
+moviepy==1.0.3

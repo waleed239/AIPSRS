@@ -1,0 +1,53 @@
+name: aipsrs
+description: AI-powered Silent Speech Recognition System
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  lottie: ^3.3.2
+  http: ^1.1.0
+  http_parser: ^4.0.0
+  shared_preferences: ^2.5.4
+  image_picker: ^0.8.7+5
+  video_player: ^2.9.1
+  video_compress: ^3.1.2
+  video_duration_native: ^0.2.3
+  chewie: ^1.5.1
+  file_picker: ^10.3.8
+  google_fonts: ^6.3.2
+  permission_handler: ^12.0.1
+  flutter_animate: ^4.2.0
+  video_thumbnail: ^0.5.3
+  fluttertoast: ^9.0.0
+  flutter_tts: ^4.0.0
+  app_links: ^6.1.4
+  flutter_svg: ^2.2.3
+  glassmorphism_ui: ^0.3.0
+  flutter_dotenv: ^6.0.0
+  supabase_flutter: ^2.12.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.14.4  # 🔹 Updated
+
+flutter_icons:  # 🔹 App icon configuration
+  android: true
+  ios: true
+  image_path: "assets/icons/lips_logo.png" # 🔹 512x512 PNG logo
+  remove_alpha_ios: false
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/.env
+    - assets/lottie/home_animation.json
+    - assets/icons/lips_logo.png  # 🔹 Logo asset
